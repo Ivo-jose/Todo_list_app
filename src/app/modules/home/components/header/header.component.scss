@@ -1,0 +1,12 @@
+//Import variables
+@import '../../../../../dist/SCSS/variables.scss';
+
+//Header Component Elements
+h1 {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
+  color: $secondary-text-color;
+  background-color: $tertiary-background-color;
+}

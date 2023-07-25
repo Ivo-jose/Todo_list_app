@@ -1,0 +1,23 @@
+//Import variables
+@import '../../../../../dist/SCSS/variables.scss';
+
+//HTML elements of component
+:host {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+
+  input {
+    width: 80%;
+    border: none;
+    background-color: $tertiary-background-color;
+    color: $secondary-text-color;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: $secondary-text-color;
+    }
+  }
+}
